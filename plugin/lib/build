@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cfx xpi --templatedir=app-extension/
+cfx run -a fennec-on-device -b adb --mobile-app fennec --force-mobile 
+
+#cfx -b adb --mobile-app=fennec --app=fennec-on-device --force-mobile -v -o $1

@@ -1,0 +1,139 @@
+body{
+    color: #555555;
+}
+
+@media only screen and (min-width: 992px) {
+    .layout-boxed {
+	overflow: auto !important;
+    }
+    .layout-boxed .wrapper {
+	box-shadow: 0 0 13px rgba(0, 0, 0, 0.25);
+	margin: 0 auto;
+	overflow: hidden;
+    }
+    .layout-boxed .wrapper .offsidebar {
+	position: absolute !important;
+    }
+    .layout-boxed .wrapper > .aside {
+	left: inherit;
+    }
+    .layout-boxed .wrapper, .layout-boxed .wrapper .topnavbar-wrapper {
+	width: 970px;
+    }
+    .layout-boxed.layout-fixed .wrapper > .aside > .aside-inner {
+	left: inherit;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .layout-boxed .wrapper, .layout-boxed .wrapper .topnavbar-wrapper {
+	width: 1140px;
+    }
+}
+
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+
+.colorpicker-element + .input-group-addon i, .colorpicker-element + .add-on i {
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    vertical-align: text-top;
+    width: 16px;
+}
+
+
+#form-login .has-error.help-block{
+    color: #a94442;
+    margin-top: -15px;
+}
+
+.checkbox-inline, .radio-inline {
+    margin-bottom: 5px;
+}
+label.checkbox, label.radio{
+    font-weight: normal;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.user-attributes dd{
+    margin-bottom: 10px;
+}
+.user-attributes dd a,
+.user-attributes dd button{
+    float: right;
+    margin-left: 5px !important;
+    margin-top: 0px !important;
+}
+@media only screen and (max-width: 767px) {
+    .user-attributes dd a,
+    .user-attributes dd button{
+	margin-top: -15px !important;
+    }
+}
+
+.ml-lg {
+    margin-left: 15px !important;
+}
+.mr-lg {
+    margin-right: 15px !important;
+}
+.mt-lg {
+    margin-top: 15px !important;
+}
+
+.mb-lg {
+    margin-bottom: 15px !important;
+}
+
+.pt-lg {
+    padding-top: 15px !important;
+}
+
+.pv {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.clearfix{
+    padding: 5px;
+}
+
+.alert-login {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Error PAGE */
+.error {
+    margin: 0 auto;
+    text-align: center;
+}
+.error-code, .error-content {
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.error-code {
+    bottom: 60%;
+    color: #44725e;
+    font-size: 96px;
+    line-height: 100px;
+}
+.error-content {
+    background: #44725e none repeat scroll 0 0;
+    bottom: 0;
+    padding-top: 15px;
+    top: 40%;
+}
+.error-message {
+    color: #fff;
+    font-size: 24px;
+}
+.error-desc {
+    color: #eee;
+    font-size: 12px;
+}
